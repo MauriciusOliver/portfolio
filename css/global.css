@@ -1,0 +1,34 @@
+@import url('reset.css');
+@import url('tipografia.css');
+@import url('buttons.css');
+/* CSS MENU */
+@import url('./components/menu.css');
+/* SOBRE */
+@import url('./components/sobre.css');
+/* SKILLS E HOBBIES*/
+@import url('./components/skills-hobbies.css');
+/* FORMAÇÃO */
+@import url('./components/formacao.css');
+/* EXPERIÊNCIA PROFISSIONAL */
+@import url('./components/experiencia.css');
+/* CONTATO */
+@import url('./components/contato.css');
+/* FOOTER */
+@import url('./components/footer.css');
+
+:root {
+    --cor-body: #F5F5F5;
+    --branco: #FFFFFF;
+    --cinza-escuro: #464646;
+    --azul-claro: #EAF2FD;
+    --azul-escuro: #2A7AE4;
+    --azul-btn-demo: #5595E9;
+    --azul-btn-repos: #D4E4FA;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: var(--cor-body);
+    overflow-x:hidden;
+
+}

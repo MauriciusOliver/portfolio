@@ -1,0 +1,68 @@
+/* Títulos */
+.tipo_t1,
+.tipo_t2 {
+    font-weight: 700;
+    color: var(--cinza-escuro);
+}
+
+.tipo_t1 {
+    font-size: 3.25rem;
+}
+
+.tipo_t2 {
+    font-size: 2rem;
+}
+
+/* textos */
+.tipo_texto1,
+.tipo_txtbold a {
+    font-size: 1rem;
+    color: var(--cinza-escuro);
+}
+
+.tipo_txtbold {
+    font-weight: 700;
+    color: var(--cinza-escuro);
+}
+
+.tipo_texto1 {
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+.tipo_texto2 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--cinza-escuro);
+}
+
+/* ícones */
+
+.icon {
+    color: var(--azul-escuro);
+    font-size: 2rem !important;
+}
+
+@media (max-width: 912px) {
+
+    .tipo_t1,
+    .tipo_t2 {
+        font-size: 1.3rem;
+    }
+
+    .tipo_texto2,
+    .tipo_texto1,
+    .tipo_txtbold {
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 414px) {
+
+    .tipo_texto2,
+    .tipo_texto1,
+    .tipo_txtbold {
+        font-size: 0.875rem;
+    }
+}

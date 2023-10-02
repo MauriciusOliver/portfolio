@@ -1,0 +1,58 @@
+.skills,
+.hobbies {
+    display: flex;
+    padding: 4rem;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.skills>h2,
+.hobbies>h2 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.card {
+    width: 10.8rem;
+    height: 10.8rem;
+    background-color: var(--branco);
+    margin: 0px 0.62rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.card i,
+.card span,
+.card p {
+    padding-left: 0.62rem;
+}
+
+@media (max-width: 768px) {
+
+    .skills,
+    .hobbies {
+        flex-direction: row;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    .card {
+        margin: 0.875rem;
+
+    }
+}
+
+@media (max-width: 414px) {
+
+    .skills,
+    .hobbies {
+        padding: 2rem;
+    }
+
+    .card {
+        width: 6.9rem;
+        height: 8.8rem;
+    }
+}
